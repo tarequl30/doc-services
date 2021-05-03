@@ -6,11 +6,9 @@ const app = firebase.initializeApp({
     projectId: "doc-service-4f4e1",
     storageBucket: "doc-service-4f4e1.appspot.com",
     messagingSenderId: "757409506218",
-    appId: "1:757409506218:web:0d960b62555a6f7e9c41d3"
+    appId: "1:757409506218:web:0d960b62555a6f7e9c41d3",
 })
 
 export const googleAuthProvider = new firebase.auth.GoogleAuthProvider()
 export const auth = app.auth()
 export default app
-
-  
