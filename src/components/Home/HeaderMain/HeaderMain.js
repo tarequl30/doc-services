@@ -5,7 +5,7 @@ import dev from "../../../images/dev.jpg";
 import "./HeaderMAin.css";
 const HeaderMain = () => {
   return (
-    <main class="row d-flex align-items-center ms-5 mx-auto mt-5 main">
+    <main class=" row d-flex align-items-center ms-5 mx-auto mt-5 main">
       <div className="col-md-4">
         <h2>
           Your New Smile <br /> Starts Here
